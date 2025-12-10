@@ -1,8 +1,8 @@
 {
-  "name": "ts-simple",
+  "name": "eloquent-js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/script.js",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
@@ -13,7 +13,7 @@
     "check": "npm run lint && npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Todd Demone",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
