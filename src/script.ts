@@ -55,7 +55,7 @@ function handleControlClick(event: MouseEvent): void {
   } else {
     isRunning = false;
     clearInterval(intervalId);
-    controlButton.textContent = "Resume";
+    controlButton.textContent = "Start";
   }
 }
 
