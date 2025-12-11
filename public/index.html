@@ -1,13 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eloquent JavaScript</title>
-  <link rel="stylesheet" href="link.css">
-</head>
-<body>
-  <h1 id="message">Eloquent JavaScript</h1>
-  <script src="../dist/script.js" defer></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="link.css" />
+  </head>
+  <body>
+    <h1 id="message">Countdown Timer</h1>
+    <form id="timeInputForm">
+      <input
+        type="number"
+        name="hours"
+        id="hoursInput"
+        value="0"
+        placeholder="00"
+        min="0"
+        max="100"
+      />
+      <input
+        type="number"
+        name="minutes"
+        id="minutesInput"
+        value="0"
+        min="0"
+        max="59"
+      />
+      <input
+        type="number"
+        name="seconds"
+        id="secondsInput"
+        value="0"
+        min="0"
+        max="59"
+      />
+    </form>
+    <button id="controlButton">Start</button>
+    <button id="resetButton">Reset</button>
+    <div>
+      <span id="display">00:00:00</span>
+    </div>
+    <script src="../dist/script.js" defer></script>
+  </body>
 </html>
